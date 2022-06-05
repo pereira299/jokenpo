@@ -22,18 +22,18 @@
                         <img class="mx-auto" src="/assets/imgs/rock-left.svg">
                     </div>
                 </div>
-                <div>
+                <div class="hidden lg:block">
                     <p class="font-bold text-lg text-center">Controles</p>
                     <p class="font-bold text-lg text-center">A - Pedra</p>
                     <p class="font-bold text-lg text-center">S - Papel</p>
                     <p class="font-bold text-lg text-center">D - Tesoura</p>
                 </div>
             </div>
-            <div class="w-2/12 flex flex-col justify-center" id="game-control">
-                <button onclick="startGame()" class="rounded bg-red-500 text-lg py-5 mb-10 font-bold text-white">
+            <div class="hidden lg:flex my-5 lg:my-0 lg:w-2/12 flex flex-col justify-center game-control">
+                <button onclick="startGame(true)" class="rounded bg-red-500 w-full text-lg py-5 mb-10 font-bold text-white">
                     <p>Jogar com o computador</p>
                 </button>
-                <button onclick="startGame()" class="rounded bg-red-500 text-lg py-5 font-bold text-white">
+                <button onclick="startGame(false)" class="rounded bg-red-500 w-full text-lg py-5 font-bold text-white">
                     <p>Jogar com um amigo</p>
                 </button>
             </div>
@@ -43,12 +43,22 @@
                         <img class="mx-auto" src="/assets/imgs/rock-right.svg">
                     </div>
                 </div>
-                <div>
+                <div class="hidden lg:block">
                     <p class="font-bold text-lg text-center">Controles</p>
                     <p class="font-bold text-lg text-center">J - Pedra</p>
                     <p class="font-bold text-lg text-center">K - Papel</p>
                     <p class="font-bold text-lg text-center">L - Tesoura</p>
                 </div>
+            </div>
+            <div class="flex lg:hidden w-full my-5 flex flex-col justify-center game-control">
+                <button onclick="startGame(true)" class="rounded bg-red-500 text-lg py-5 mb-10 font-bold text-white">
+                    <p>Jogar</p>
+                </button>
+            </div>
+            <div class="flex lg:hidden w-full justify-around">
+                <button class="rounded bg-red-500 py-0 mb-2 h-12 font-bold text-xl text-white px-2" onclick="setOption('rock')">Pedra</button>
+                <button class="rounded bg-red-500 py-0 mb-2 h-12 font-bold text-xl text-white px-2" onclick="setOption('paper')">Papel</button>
+                <button class="rounded bg-red-500 py-0 mb-2 h-12 font-bold text-xl text-white px-2" onclick="setOption('scissor')">Tesoura</button>
             </div>
         </div>
     </main>

@@ -15,7 +15,7 @@ const startGame = async (alone = true) => {
     players[1].option = 'rock';
     const hands = document.querySelectorAll('.player-image');
     const handsImg = document.querySelectorAll('.player-image img');
-    const gameControl = document.querySelector('#game-control');
+    const gameControl = document.querySelectorAll('.game-control');
     handsImg[0].src = `/assets/imgs/${players[0].option}-left.svg`;
     handsImg[1].src = `/assets/imgs/${players[1].option}-right.svg`;
     readyToKeyPress = true;
@@ -36,7 +36,7 @@ const startGame = async (alone = true) => {
     }
     hands[0].style.transform = "rotate(45deg)";
     hands[1].style.transform = "rotate(-45deg)";
-    gameControl.innerHTML = `<p class="text-5xl font-bold text-center">Preparado?</p>`;
+    gameControl.forEach(item => item.innerHTML = `<p class="text-5xl font-bold text-center">Preparado?</p>`)
     await delay(2000);
     hands.forEach(hand => {
         hand.classList.add("ready");
@@ -46,13 +46,13 @@ const startGame = async (alone = true) => {
             hand.classList.add("go");
         });
     }, 2000);
-    gameControl.innerHTML = `<p class="text-5xl font-bold text-center">JO</p>`;
+    gameControl.forEach(item => item.innerHTML = `<p class="text-5xl font-bold text-center">JO</p>`)
 
     await delay(600);
-    gameControl.innerHTML = `<p class="text-5xl font-bold text-center">KEN</p>`;
+    gameControl.forEach(item => item.innerHTML = `<p class="text-5xl font-bold text-center">KEN</p>`)
 
     await delay(600);
-    gameControl.innerHTML = `<p class="text-5xl font-bold text-center">PO</p>`;
+    gameControl.forEach(item => item.innerHTML = `<p class="text-5xl font-bold text-center">PO</p>`)
 
     readyToKeyPress = false;
     await delay(600);
@@ -64,16 +64,16 @@ const startGame = async (alone = true) => {
 
     const winner = hasWinner(players);
     if (isNaN(winner)) {
-        gameControl.innerHTML = `<p class="text-5xl font-bold text-center">${winner}</p>
+        gameControl.forEach(item => item.innerHTML = `<p class="text-5xl font-bold text-center">${winner}</p>
         <button onclick="window.location.reload()" class="rounded bg-red-500 text-lg py-5 mb-10 font-bold text-white">
                     <p>Jogar novamente</p>
-                </button>`;
+                </button>`)
     }else {
         hands[winner - 1].classList.add("winner");
-        gameControl.innerHTML = `<p class="text-5xl font-bold text-center mb-10">${tradutor[players[winner - 1].option]} venceu!</p>
+        gameControl.forEach(item => item.innerHTML = `<p class="text-5xl font-bold text-center mb-10">${tradutor[players[winner - 1].option]} venceu!</p>
         <button onclick="window.location.reload()" class="rounded bg-red-500 text-lg py-5 mb-10 font-bold text-white">
                     <p>Jogar novamente</p>
-                </button>`;
+                </button>`)
     }
     
 setTimeout(() => {
@@ -83,6 +83,12 @@ setTimeout(() => {
     });
 }, 1000);
 
+}
+
+const setOption = (option) => {
+    if (readyToKeyPress) {
+        players[0].option = option;
+    }
 }
 
 const hasWinner = (players) => {
