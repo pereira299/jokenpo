@@ -1,0 +1,8 @@
+{
+  "name": "jokenpo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pereira299/jokenpo.git",
+  "author": "pereira299 <lucasper057@gmail.com>",
+  "license": "MIT"
+}

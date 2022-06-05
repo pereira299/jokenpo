@@ -1,0 +1,94 @@
+.container-game {
+    height: 80vh;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.player-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: all linear .3s;
+}
+
+.player-container {
+    margin: auto 0px;
+}
+.player-image img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+}
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+#player-1 .player-image.ready {
+    transform: rotate(45deg);
+    animation: handShakeLeft .6s linear;
+    animation-iteration-count: 3;
+}
+#player-1 .player-image.ready.go {
+    transform: rotate(90deg);
+}
+#player-1 .player-image.winner {
+    transform: rotate(0deg);
+    animation: jump .6s linear infinite;
+}
+#player-2 .player-image.ready {
+    transform: rotate(-45deg);
+    animation: handShakeRight .6s linear;
+    animation-iteration-count: 3;
+}
+#player-2 .player-image.ready.go {
+    transform: rotate(-90deg);
+}
+#player-2 .player-image.winner {
+    transform: rotate(0deg);
+    animation: jump .6s linear infinite;
+}
+
+
+
+@keyframes handShakeLeft {
+    0% {
+        transform: rotate(45deg);
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    900% {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes handShakeRight {
+    0% {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(-90deg);
+    }
+    100% {
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

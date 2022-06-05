@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+    <script src="http://cdn.tailwindcss.com"></script>
+    <script src="/assets/scripts/game.js"></script>
+    <link rel="stylesheet" href="/assets/styles/global.css"/>
+</head>
+<body>
+    <header class="w-screen">
+        <h1 class="text-center mx-auto uppercase text-4xl font-bold">Jokenpo</h1>
+    </header>
+    <main class="w-screen">
+        <div class="container-game w-screen justify-around">
+            <div class="w-5/12 flex flex-col justify-between" id="player-1">
+                <div class="mx-auto player-container">
+                    <div class="player-image">
+                        <img class="mx-auto" src="/assets/imgs/rock-left.svg">
+                    </div>
+                </div>
+                <div>
+                    <p class="font-bold text-lg text-center">Controles</p>
+                    <p class="font-bold text-lg text-center">A - Pedra</p>
+                    <p class="font-bold text-lg text-center">S - Papel</p>
+                    <p class="font-bold text-lg text-center">D - Tesoura</p>
+                </div>
+            </div>
+            <div class="w-2/12 flex flex-col justify-center" id="game-control">
+                <button onclick="startGame()" class="rounded bg-red-500 text-lg py-5 mb-10 font-bold text-white">
+                    <p>Jogar com o computador</p>
+                </button>
+                <button onclick="startGame()" class="rounded bg-red-500 text-lg py-5 font-bold text-white">
+                    <p>Jogar com um amigo</p>
+                </button>
+            </div>
+            <div class="w-5/12 flex flex-col justify-between" id="player-2">
+                <div class="mx-auto player-container">
+                    <div class="player-image">
+                        <img class="mx-auto" src="/assets/imgs/rock-right.svg">
+                    </div>
+                </div>
+                <div>
+                    <p class="font-bold text-lg text-center">Controles</p>
+                    <p class="font-bold text-lg text-center">J - Pedra</p>
+                    <p class="font-bold text-lg text-center">K - Papel</p>
+                    <p class="font-bold text-lg text-center">L - Tesoura</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

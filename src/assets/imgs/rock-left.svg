@@ -1,0 +1,16 @@
+<svg width="409" height="458" viewBox="0 0 409 458" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="409" height="458" fill="none"/>
+<g id="rock-left">
+<g id="rock-left_2">
+<path id="palma" d="M385 200H395V210V255.5C395 361.815 308.815 448 202.5 448C96.1852 448 10 361.815 10 255.5V210V200H20H385Z" fill="white" stroke="black" stroke-width="20"/>
+<rect id="dedo-1" x="10" y="-10" width="96" height="164" rx="48" transform="matrix(-1 0 0 1 409 66)" fill="white" stroke="black" stroke-width="20"/>
+<rect id="dedo-2" x="10" y="-10" width="96" height="224" rx="48" transform="matrix(-1 0 0 1 313 20)" fill="white" stroke="black" stroke-width="20"/>
+<rect id="dedo-3" x="10" y="-10" width="96" height="224" rx="48" transform="matrix(-1 0 0 1 214 20)" fill="white" stroke="black" stroke-width="20"/>
+<rect id="dedo-4" x="10" y="-10" width="96" height="224" rx="48" transform="matrix(-1 0 0 1 116 20)" fill="white" stroke="black" stroke-width="20"/>
+<path id="marca-palma" d="M103 235C190 235 221 309 210 400" stroke="black" stroke-width="20" stroke-linecap="round"/>
+<path id="Line 4" d="M287 198.5C287 198.5 267 236 246.5 236C196.5 236 125.996 236 125.996 236" stroke="black" stroke-width="20" stroke-linecap="round"/>
+<path id="Rectangle 24" d="M20 244V234H10C10 182.638 51.6375 141 103 141H283C294.046 141 303 149.954 303 161V162.5C303 207.511 266.511 244 221.5 244H20Z" fill="white" stroke="black" stroke-width="20"/>
+<rect id="Rectangle 24_2" width="120" fill="white" x="20" y="224" height="30"/>
+</g>
+</g>
+</svg>

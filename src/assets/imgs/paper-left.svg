@@ -1,0 +1,21 @@
+<svg width="597" height="688" viewBox="0 0 597 688" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="597" height="688" fill="none"/>
+<g id="paper-right">
+<g id="paper-right_2">
+<path id="palma" d="M577 435H587V445V485.562C587 591.843 500.843 678 394.562 678C288.282 678 202.125 591.843 202.125 485.562V445V435H212.125H577Z" fill="#ffffff" stroke="black" stroke-width="20"/>
+<rect id="dedo-1" x="10" y="-10" width="94.9743" height="343" rx="47.4872" transform="matrix(-1 0 0 1 597 131)" fill="#ffffff" stroke="black" stroke-width="20"/>
+<rect id="dedo-2" x="10" y="-10" width="94.9743" height="468" rx="47.4872" transform="matrix(-1 0 0 1 502.032 20)" fill="#ffffff" stroke="black" stroke-width="20"/>
+<rect id="dedo-3" x="10" y="-10" width="94.9743" height="468" rx="47.4872" transform="matrix(-1 0 0 1 404.066 20)" fill="#ffffff" stroke="black" stroke-width="20"/>
+<rect id="dedo-4" x="10" y="-10" width="94.9743" height="397" rx="47.4872" transform="matrix(-1 0 0 1 307.099 91)" fill="#ffffff" stroke="black" stroke-width="20"/>
+<rect id="Rectangle 22" width="364.875" height="96" transform="matrix(-1 0 0 1 577 403)" fill="#ffffff"/>
+<path id="dedo-5" d="M286.52 646.613L18.0401 478.48C10.4075 473.7 8.09293 463.636 12.8705 456.002C36.2173 418.696 85.3805 407.389 122.68 430.747L340.906 567.41C362.416 580.88 368.938 609.241 355.475 630.754C340.814 654.181 309.942 661.281 286.52 646.613Z" fill="#ffffff" stroke="black" stroke-width="20"/>
+<g id="marca-palma">
+<mask id="path-8-inside-1_0_1" fill="white">
+<path d="M405.059 631.153C405.059 541.046 332.013 468 241.906 468H197.13V485.347C197.13 582.357 275.773 661 372.783 661H375.212C391.696 661 405.059 647.637 405.059 631.153V631.153Z"/>
+</mask>
+<path d="M405.059 631.153C405.059 541.046 332.013 468 241.906 468H197.13V485.347C197.13 582.357 275.773 661 372.783 661H375.212C391.696 661 405.059 647.637 405.059 631.153V631.153Z" fill="#ffffff"/>
+<path d="M425.059 615.432C425.059 522.962 350.097 448 257.627 448H197.13V485.347C197.13 486.231 197.137 487.116 197.15 488L229.406 488H241.906C320.967 488 385.059 552.092 385.059 631.153L425.059 615.432ZM197.13 661H405.059H197.13ZM379.491 661C404.657 661 425.059 640.598 425.059 615.432V615.432C425.059 522.962 350.097 448 257.627 448L241.906 488C320.967 488 385.059 552.092 385.059 631.153V631.153C385.059 647.637 380.65 661 375.212 661H379.491ZM197.13 468V661V468Z" fill="white" mask="url(#path-8-inside-1_0_1)"/>
+</g>
+</g>
+</g>
+</svg>

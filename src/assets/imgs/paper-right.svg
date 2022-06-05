@@ -1,0 +1,19 @@
+<svg width="597" height="688" viewBox="0 0 597 688" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="597" height="688" fill="none"/>
+<g id="paper-right">
+<path id="palma" d="M20 435H10V445V485.5C10 591.815 96.1852 678 202.5 678C308.815 678 395 591.815 395 485.5V445V435H385H20Z" fill="#ffffff" stroke="black" stroke-width="20"/>
+<rect id="dedo-1" x="10" y="121" width="95" height="343" rx="47.5" fill="#ffffff" stroke="black" stroke-width="20"/>
+<rect id="dedo-2" x="105" y="10" width="95" height="468" rx="47.5" fill="#ffffff" stroke="black" stroke-width="20"/>
+<rect id="dedo-3" x="203" y="10" width="95" height="468" rx="47.5" fill="#ffffff" stroke="black" stroke-width="20"/>
+<rect id="dedo-4" x="300" y="81" width="95" height="397" rx="47.5" fill="#ffffff" stroke="black" stroke-width="20"/>
+<rect id="Rectangle 22" x="20" y="403" width="365" height="96" fill="#ffffff"/>
+<path id="dedo-5" d="M310.574 646.616L579.152 478.478C586.785 473.7 589.1 463.637 584.321 456.004C560.966 418.698 511.791 407.388 474.485 430.743L256.171 567.414C234.658 580.882 228.136 609.24 241.604 630.753C256.269 654.179 287.148 661.281 310.574 646.616Z" fill="#ffffff" stroke="black" stroke-width="20"/>
+<g id="marca-palma">
+<mask id="path-8-inside-1_0_1" fill="white">
+<path d="M192 631.153C192 541.046 265.046 468 355.153 468H400V485.287C400 582.33 321.33 661 224.287 661H221.847C205.363 661 192 647.637 192 631.153V631.153Z"/>
+</mask>
+<path d="M192 631.153C192 541.046 265.046 468 355.153 468H400V485.287C400 582.33 321.33 661 224.287 661H221.847C205.363 661 192 647.637 192 631.153V631.153Z" fill="#ffffff"/>
+<path d="M172 615.432C172 522.962 246.962 448 339.432 448H400V485.287C400 486.191 399.993 487.096 399.979 488L367.713 488H355.153C276.092 488 212 552.092 212 631.153L172 615.432ZM400 661H192H400ZM217.568 661C192.402 661 172 640.598 172 615.432C172 522.962 246.962 448 339.432 448L355.153 488C276.092 488 212 552.092 212 631.153V631.153C212 647.637 216.409 661 221.847 661H217.568ZM400 468V661V468Z" fill="white" mask="url(#path-8-inside-1_0_1)"/>
+</g>
+</g>
+</svg>

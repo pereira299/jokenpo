@@ -1,0 +1,14 @@
+<svg width="409" height="458" viewBox="0 0 409 458" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="409" height="458" fill="none"/>
+<g id="rock-right">
+<path id="palma" d="M24 200H14V210V255.5C14 361.815 100.185 448 206.5 448C312.815 448 399 361.815 399 255.5V210V200H389H24Z" fill="white" stroke="black" stroke-width="20"/>
+<rect id="dedo-1" x="10" y="56" width="96" height="164" rx="48" fill="white" stroke="black" stroke-width="20"/>
+<rect id="dedo-2" x="106" y="10" width="96" height="224" rx="48" fill="white" stroke="black" stroke-width="20"/>
+<rect id="dedo-3" x="205" y="10" width="96" height="224" rx="48" fill="white" stroke="black" stroke-width="20"/>
+<rect id="dedo-4" x="303" y="10" width="96" height="224" rx="48" fill="white" stroke="black" stroke-width="20"/>
+<path id="marca-palma" d="M306 235C219 235 188 309 199 400" stroke="black" stroke-width="20" stroke-linecap="round"/>
+<path id="Line 4" d="M122 198.5C122 198.5 142 236 162.5 236C212.5 236 283.004 236 283.004 236" stroke="black" stroke-width="20" stroke-linecap="round"/>
+<path id="Rectangle 24" d="M389 244V234H399C399 182.638 357.362 141 306 141H126C114.954 141 106 149.954 106 161V162.5C106 207.511 142.489 244 187.5 244H389Z" fill="white" stroke="black" stroke-width="20"/>
+<rect id="Rectangle 24_2" width="118" fill="white" x="271" y="223" height="33"/>
+</g>
+</svg>

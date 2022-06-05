@@ -1,0 +1,17 @@
+<svg width="461" height="706" viewBox="0 0 461 706" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="461" height="706" fill="none"/>
+<g id="scissor-right">
+<path id="palma" d="M24 448H14V458V503.5C14 609.815 100.185 696 206.5 696C312.815 696 399 609.815 399 503.5V458V448H389H24Z" fill="white" stroke="black" stroke-width="20"/>
+<rect id="dedo-1" x="10" y="304" width="105" height="164" rx="52.5" fill="white" stroke="black" stroke-width="20"/>
+<rect id="dedo-3" x="165.978" y="20.4431" width="95.2183" height="413.583" rx="47.6091" transform="rotate(-8.09751 165.978 20.4431)" fill="white" stroke="black" stroke-width="20"/>
+<rect id="dedo-2" x="118" y="258" width="105" height="224" rx="52.5" fill="white" stroke="black" stroke-width="20"/>
+<rect id="dedo-4" x="361.708" y="4.7387" width="95.2183" height="474.596" rx="47.6091" transform="rotate(7.77765 361.708 4.7387)" fill="white" stroke="black" stroke-width="20"/>
+<path id="Line 2" d="M122 446.5C122 446.5 142 484 162.5 484C212.5 484 283.004 484 283.004 484" stroke="black" stroke-width="20" stroke-linecap="round"/>
+<path id="Rectangle 16" d="M389 497V487H399C399 435.638 357.362 394 306 394H138C126.954 394 118 402.954 118 414V415.5C118 460.511 154.489 497 199.5 497H389Z" fill="white" stroke="black" stroke-width="20"/>
+<g id="Line 5">
+<path id="Line 5_2" d="M314 497C227 497 196 571 207 662" stroke="black" stroke-width="20" stroke-linecap="round"/>
+<path id="Line 6" d="M128 459.5C128 459.5 148 497 168.5 497C218.5 497 289.004 497 289.004 497" stroke="black" stroke-width="20" stroke-linecap="round"/>
+</g>
+<rect id="Rectangle 24_2" y="477" x="309" height="40" width="80" fill="white"/>
+</g>
+</svg>
